@@ -6,7 +6,7 @@ class Serve < Formula
   sha1 "1768ada55d21e0c1b0227bd1f8ae2625819afac5"
 
   def install
-    system "cp", "serve", "#{bin}/serve"
+    system "cp", "serve_0.2.2_darwin_amd64/serve", "#{bin}/serve"
   end
 
   test do
