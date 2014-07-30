@@ -2,15 +2,11 @@ require "formula"
 
 class Serve < Formula
   homepage "https://github.com/kidoman/serve"
-  url "https://github.com/kidoman/serve/archive/v0.2.1.tar.gz"
-  sha1 "8079535f8e35cffec59894036f4f24f5e8882c13"
-
-  head "https://github.com/kidoman/serve.git"
-
-  depends_on "go" => :build
+  url "https://github.com/kidoman/serve/releases/download/v0.2.2/serve_0.2.2_darwin_amd64.zip"
+  sha1 "1768ada55d21e0c1b0227bd1f8ae2625819afac5"
 
   def install
-    system "go", "build", "-o", "#{bin}/serve"
+    system "cp", "serve", "#{bin}/serve"
   end
 
   test do
