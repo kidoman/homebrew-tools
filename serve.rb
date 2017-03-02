@@ -3,7 +3,7 @@ require "formula"
 class Serve < Formula
   homepage "https://github.com/kidoman/serve"
   url "https://github.com/kidoman/serve/archive/v0.2.3.tar.gz"
-  sha1 "cb4bc4a7cb7a321e104bcc76aa31390205b39752"
+  sha256 "f80fafcee55f168a6bbd052e2870e208f7a193233de503fed739d5a6529853ac"
 
   head "https://github.com/kidoman/serve.git"
 
